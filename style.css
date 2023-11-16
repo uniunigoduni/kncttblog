@@ -1,0 +1,157 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap’); 
+
+body{ 
+
+background-color: rgba(248, 248, 255, 1); /*ページの背景色*/ 
+
+text-align: center; /*テキストを中央寄せ*/ 
+
+font-family: “Noto Sans JP”, “Hiragino Kaku Gothic ProN”, Meiryo, sans-serif;/*フォント指定*/ 
+
+} 
+
+header{ 
+
+height: 150px;/*ヘッダーの高さ*/ 
+
+position: sticky;/*ヘッダーをウィンドウ上部に固定*/ 
+
+top: 0;/*ヘッダーをウィンドウ上部に固定*/ 
+
+} 
+
+h1{ 
+
+background: radial-gradient(rgb(151, 140, 253), transparent);/*ページタイトルの背景*/ 
+
+color: rgb(248, 248, 255);/*ページタイトルの文字色*/ 
+
+text-shadow: 0 0.05em 0.08em rgba(0,0,0,0.7);/*ページタイトルに影を付ける*/ 
+
+} 
+
+.headernav ul{
+
+display: flex;/*メニューを横並びに*/  
+
+list-style: none;/*メニューから点をとる*/ 
+
+border: 2mm groove rgba(151, 140, 253, 0.6);/*メニューのボーダー*/ 
+border-radius: 15px;/*メニュー角丸*/
+justify-content: center;/*メニューを中央寄せ*/ 
+
+} 
+
+.headernav li{ 
+
+margin-left: 1em;/*項目間にスペースを開ける*/ 
+
+margin-right: 1em;/*項目間にスペースを開ける*/ 
+
+} 
+
+section p{ 
+
+margin: 1% 10%;/*上下、左右のマージン*/ 
+
+} 
+
+article ul li{ 
+
+margin: 0% 30%;/*上下、左右のマージン*/ 
+
+} 
+
+h2{ 
+
+font-style: italic;/*h2見出しを斜体に*/ 
+
+} 
+
+h3{ 
+
+text-decoration: underline; /*h3見出しに下線*/ 
+
+font-style: italic;/*h3見出しを斜体に*/ 
+
+} 
+
+p{ 
+
+padding: 2em;/*ボーダーに合わせるための余白*/ 
+
+} 
+
+ 
+
+section{ 
+
+float: left;/*要素を横並びにする*/ 
+
+width: 88%;/*セクションブロックの横幅*/ 
+
+margin: 1% auto 1% 4%;/*上、右、下、左のマージン*/ 
+
+padding: 2% 2% 0% 2%;/*上下と左右の余白*/ 
+
+border: double 5px rgba(151, 140, 253, 0.6); /*ボーダーの線*/ 
+
+border-radius: 10%;/*境界の角を丸める*/ 
+
+} 
+
+@media screen and (min-width:960px){/*スクリーンサイズが960px以上*/ 
+
+section{ 
+
+float: left;/*要素を横並びにする*/ 
+
+width: 38%;/*セクションブロックの横幅*/ 
+
+margin: 1% auto 1% 5%;/*上、右、下、左のマージン*/ 
+
+padding: 0 2%;/*上下と左右の余白*/ 
+
+border: double 5px rgba(151, 140, 253, 0.6);/*ボーダーの線*/ 
+
+border-radius: 10%;/*境界の角を丸める*/ 
+
+}
+
+} 
+
+article{ 
+
+width: 95%;/*横幅*/ 
+
+margin: 30px 0 30px 0;/*上、右、下、左のマージン*/ 
+
+padding: 0.4em;/*上、右、下、左の余白*/ 
+
+background-color: rgba(255, 255, 255, 0.60);/*背景色*/ 
+
+border-radius: 50%;/*境界の角を丸める*/ 
+
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);/*ボックスに影を付ける*/ 
+
+} 
+
+ 
+
+footer{ 
+
+height: 150px;/*フッターの高さ*/ 
+
+display: flex;/*フッターを中央に寄せる*/ 
+
+justify-content: center;/*フッターを中央に寄せる*/ 
+
+align-items: center;/*フッターを中央に寄せる*/ 
+
+background-color: rgba(151, 140, 253, 0.6);/*フッターの背景色*/ 
+
+bottom: 0;/*フッターをページ下部に固定*/ 
+
+width: 100%;/*フッターの幅*/ 
+
+} 
