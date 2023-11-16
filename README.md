@@ -1,8 +1,10 @@
-<style>
-  body{
-    text-align: center;
-  }
-</style>
+<head>
+  <style>
+    body{
+      text-align: center;
+    }
+  </style>
+</head>
 <body>
   <p>
     ↓You can access the KNCTT blog at this URL↓<br>
