@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+
+<html lang="ja"> 
+    <head> 
+        <meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+        <link rel="icon" href="favicon.png" type="image/png">
+        <link rel="stylesheet" href="./style.css"> 
+        <title>記事|KNCTT blog</title> 
+    </head> 
+    <body> 
+        <header> 
+            <h1>KNCTT blog</h1> 
+            <div class="menubar">
+            
+            <!-- 折り畳み展開ポインタ -->
+            <div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+                <a style="cursor:pointer;"><div alt="メニューを表示非表示するトグルスイッチ" id="toggleimage"></div></a>
+                </div>
+                <!--// 折り畳み展開ポインタ -->
+                <!-- 折り畳まれ部分 -->
+                <div id="open" style="display:none;clear:both;">
+                <!--ここの部分が折りたたまれる＆展開される部分になります。
+                自由に記述してください。-->
+                <nav class="headernav"> 
+                    <ul> 
+                        <li><a href="index.html"><img src="./image/top.png" alt="トップページへのリンク画像" width="50" height="50"></a></li>
+                        <li><a href="article.html"><img src="./image/article.png" alt="記事ページへのリンク画像" width="50" height="50"></a></li>
+                        <li><a href="https://www.weblio.jp/content/%E6%BA%96%E5%82%99%E4%B8%AD"><img src="./image/comingsoon.png" alt="準備中" width="50" height="50"></a></li>
+                        <li><a href="https://www.weblio.jp/content/%E6%BA%96%E5%82%99%E4%B8%AD"><img src="./image/comingsoon.png" alt="準備中" width="50" height="50"></a></li>
+                    </ul> 
+                </nav> 
+                </div>
+                <!--// 折り畳まれ部分 -->
+            </div>
+        </header> 
+        <main> 
+            <h2>記事一覧を見ることができるページです</h2> 
+            <section> 
+                <article>
+		            <a href="oritataminokiji.html"><img src="./image/oritatamiman.png" alt="折り畳みスマホを誉める記事へのリンク画像" width="100" height="100"></a>
+		            <a href="oritataminokiji.html"><h3>折りたたみスマホ、Galaxy Z Flip3を一年使ってわかったいいところダメなところ</h3></a>
+		            <p>折り畳みスマホのgalaxy z flip3のレビュー記事です</p> 
+                </article> 
+            </section> 
+            <section>
+                <article>
+                <a href="kiji2nourl.html"><img src="./image/kiji2nogazou.png" alt="kiji2へのリンク画像" width="50" height="50"></a>
+                <a href="kiji2nourl.html"><h3>記事2でありたい</h3></a>
+                <p>記事2の説明でありたい</p>
+                </article>
+            </section>
+        </main> 
+        <footer> 
+            <p>サーバーマシン提供 : 香川高専村上研究室<br>email(Hashimoto) : st19066@kagawa.kosen-ac.jp</p> 
+        </footer> 
+    </body> 
+</html> 

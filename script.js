@@ -8,3 +8,9 @@ window.addEventListener("scroll", () => {
 
     rotatingImage.style.transform = rotation;
 });
+
+const switchImg = document.getElementById("toggleimage");
+function changeImg(){
+switchImg.classList.toggle("on_toggleimage");
+}
+switchImg.addEventListener("click",changeImg);

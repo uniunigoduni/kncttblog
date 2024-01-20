@@ -30,29 +30,29 @@ text-shadow: 0 0.05em 0.08em rgba(0,0,0,0.7);/*ページタイトルに影を付
 
 } 
 
-.headernav ul{
 
-display: flex;/*メニューを横並びに*/  
+.menubar{
+    display: flex;
+    align-items: center;
+}
 
-list-style: none;/*メニューから点をとる*/ 
 
-border: 2mm groove rgba(151, 140, 253, 0.6);/*メニューのボーダー*/ 
-border-radius: 15px;/*メニュー角丸*/
-justify-content: center;/*メニューを中央寄せ*/ 
+.headernav ul {
+    display: flex;
+    list-style: none;
+    border: 2mm groove rgba(151, 140, 253, 0.6);
+    background-color: #f2f2f2;
+    align-items: start;
+    width: 240px;
+    border-radius: 50px 50px 50px 50px;
 
 } 
 
 .headernav li{ 
 
-margin-left: 1em;/*項目間にスペースを開ける*/ 
+    margin: 0em;/*項目間にスペースを開ける*/ 
 
-margin-right: 1em;/*項目間にスペースを開ける*/ 
 
-} 
-
-section p{ 
-
-margin: 1% 10%;/*上下、左右のマージン*/ 
 } 
 
 article p{
@@ -158,3 +158,17 @@ bottom: 0;/*フッターをページ下部に固定*/
 width: 100%;/*フッターの幅*/ 
 
 } 
+
+
+
+#toggleimage{
+    width: 50px;
+    height: 50px;
+    background: url(image/menuoff.png) no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    }
+#toggleimage.on_toggleimage{
+    background: url(image/menuon.png) no-repeat;
+    background-size: 100% 100%;
+    }
