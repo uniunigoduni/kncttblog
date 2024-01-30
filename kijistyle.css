@@ -12,6 +12,8 @@ font-family: “Noto Sans JP”, “Hiragino Kaku Gothic ProN”, Meiryo, sans-s
 
 header{ 
 
+mix-blend-mode: multiply;
+
 height: 150px;/*ヘッダーの高さ*/ 
 
 position: sticky;/*ヘッダーをウィンドウ上部に固定*/ 
